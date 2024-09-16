@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Number converte caixa texto em caixa número
+        var n1 = Number(prompt("Digite um número"));
+        var n2 = Number(prompt("Digite um número"));
+        var n3 = Number(prompt("Digite um número"));
+    
+        // Verifica qual número é o maior e exibe o resultado
+        if (n1 > n2 && n1 > n3) {
+            alert("O primeiro número é o maior");
+        } else if (n2 > n1 && n2 > n3) {
+            alert("O segundo número é o maior");
+        } else if (n3 > n1 && n3 > n2) {
+            alert("O terceiro número é o maior");
+        } else {
+            alert("Há um empate entre os números ou todos são iguais.");
+        }
+    
+        
+        alert("Primeiro número: " + n1 + " Segundo número: " + n2 + " Terceiro número: " + n3 + ".");
+    </script>
+</body>
+</html>
